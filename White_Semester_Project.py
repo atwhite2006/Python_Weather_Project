@@ -75,7 +75,7 @@ class WeatherApp(WeatherService):
 
 #main execution block
 if __name__ == "__main__":
-    #setting api key here, in a real app we would want to keep this secret and not hardcode it
+    #setting api key here
     API_KEY = "085b777188931a771bcb816c9923f12e"
     
     root = tk.Tk()
